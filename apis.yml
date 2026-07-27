@@ -1,9 +1,27 @@
 aid: groover
 name: Groover
-description: 'Groover is a company surfaced as a portfolio company of partech, techstars and added to
-  the API Evangelist network as a stub for enrichment. Sector: Marketplace. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Groover is a music promotion platform that connects independent artists
+  and their representatives with a network of more than 3,000 vetted music-industry
+  professionals — playlist curators, bloggers, journalists, radio stations, record
+  labels, and managers. Artists submit a track and spend credits ("Grooviz", roughly
+  €2 each) to reach individual curators, and Groover guarantees personalized feedback
+  within seven days or refunds the credit. Founded in Paris in 2018, the company also
+  operates Temple by Groover, a fanbase-growth toolset. Groover runs a consumer web
+  application on a credit-based, pay-per-submission model and publishes no public
+  developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/groover/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.datocms-assets.com/138249/1737629113-logo-groover-svg.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Marketplace
+- Music
+- Music Promotion
+- Artists
+- Curators
+- Media
+- Distribution
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://groover.co/
+- type: Pricing
+  url: https://groover.co/lp/pricing/
+- type: Support
+  url: https://help.groover.co/
+- type: Blog
+  url: https://blog.groover.co/
+- type: TermsOfService
+  url: https://groover.co/lp/cgs/
+- type: PrivacyPolicy
+  url: https://cdn-prod.groover.co/media/ccEn.pdf
+- type: DomainSecurity
+  url: security/groover-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
